@@ -1,0 +1,51 @@
+<!-- project notes: covered building a nav ul and li using icons -->
+<!-- follow up on building navs and using fontawesome icons -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotating Navigation</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- link CSS stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+
+        <section class="content">
+            <h1>Rockin article</h1>
+            <small>Florin Pop</small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit soluta alias! At repudiandae ullam assumenda laudantium molestiae neque nesciunt asperiores. Quae earum aspernatur eos vel saepe accusantium fugiat autem modi recusandae amet totam ipsam officia, quisquam rem nam aliquid blanditiis eum mollitia omnis labore, optio nobis. Eveniet dolores doloremque accusantium, suscipit exercitationem aliquam quo voluptatem perferendis voluptas delectus. Numquam enim ipsam tempore delectus omnis perferendis esse consequuntur et architecto repudiandae unde obcaecati mollitia ex, consequatur animi quibusdam molestias iste asperiores sit error assumenda. Libero officiis id voluptatem ex, reprehenderit, aliquam nemo, exercitationem illum tempore mollitia assumenda! Officiis, vitae maiores.</p>
+            <h3>my dog</h3>
+            <img src="https://images.unsplash.com/photo-1561124721-c10cafd15775?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="german shepherd">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro accusantium eveniet ab officia architecto quisquam sunt maiores eaque possimus quis doloribus quidem consequatur, assumenda quaerat suscipit corporis atque nam aliquam quasi ut totam maxime sed est reiciendis! Laboriosam dolorem, consequuntur illo quod architecto, at fugiat in, alias molestias vitae quibusdam laudantium rerum ad suscipit aspernatur quam. Tempore voluptate deserunt facere? Amet fugiat minima totam? Itaque quae, error enim laborum reprehenderit quidem atque consequuntur voluptates? Aliquid.</p>
+        </section>
+    </section>
+
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user-alt"></i> About</li>
+            <li><i class="fas fa-envelope"></i> Contact</li>
+        </ul>
+    </nav>
+    <script src="script.js"></script>
+</body>
+</html>
